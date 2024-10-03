@@ -12,7 +12,7 @@ services:
       - ./ftp_data:/home/ftpuser
     environment:
       - FTP_USER=ftpuser
-      - FTP_PASS=12341234
+      - FTP_PASS=P@ssw0rd!
     command: >
       bash -c "
         apt-get update && 
