@@ -1,6 +1,6 @@
 version: '3' 
 
-
+#Simple Docker der oprettet en Ubuntu server med FTP tjeneste.
 
 services:
   ubuntu-ftp:
